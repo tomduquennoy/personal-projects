@@ -1,0 +1,35 @@
+Dataset: ZINC,
+Model: GCN
+
+params={'seed': 41, 'epochs': 1000, 'batch_size': 128, 'init_lr': 0.001, 'lr_reduce_factor': 0.5, 'lr_schedule_patience': 10, 'min_lr': 1e-05, 'weight_decay': 0.0, 'print_epoch_interval': 5, 'max_time': 12}
+
+net_params={'L': 4, 'hidden_dim': 145, 'out_dim': 145, 'residual': True, 'readout': 'mean', 'in_feat_dropout': 0.0, 'dropout': 0.0, 'batch_norm': True, 'self_loop': False, 'device': device(type='cpu'), 'gpu_id': 0, 'batch_size': 128, 'num_atom_type': 28, 'num_bond_type': 4, 'total_param': np.int64(103077)}
+
+GCNNet(
+  (in_feat_dropout): Dropout(p=0.0, inplace=False)
+  (embedding_h): Embedding(28, 145)
+  (layers): ModuleList(
+    (0-3): 4 x GCNLayer(in_channels=145, out_channels=145, residual=True)
+  )
+  (MLP_layer): MLPReadout(
+    (FC_layers): ModuleList(
+      (0): Linear(in_features=145, out_features=72, bias=True)
+      (1): Linear(in_features=72, out_features=36, bias=True)
+      (2): Linear(in_features=36, out_features=1, bias=True)
+    )
+  )
+)
+
+Total Parameters: 103077
+
+
+    FINAL RESULTS
+TEST MAE: 1.5508
+TRAIN MAE: 1.4695
+
+
+    Convergence Time (Epochs): 26.0000
+Total Time Taken: 0.0252 hrs
+Average Time Per Epoch: 3.4186 s
+
+

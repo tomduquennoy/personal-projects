@@ -1,0 +1,8 @@
+Epoch 173:  17%|▏| 173/1000 [14:59<3:48:55, 16.61s/it, lr=1.56e-5, test_MAE=0.406, time=6.19, train_MAE=0.317, train_l
+!! LR EQUAL TO MIN LR SET.
+Epoch 173:  17%|▏| 173/1000 [14:59<1:11:41,  5.20s/it, lr=1.56e-5, test_MAE=0.406, time=6.19, train_MAE=0.317, train_l
+Test MAE: 0.4057
+Train MAE: 0.3026
+Convergence Time (Epochs): 173.0000
+TOTAL TIME TAKEN: 902.7593s
+AVG TIME PER EPOCH: 5.1657s
