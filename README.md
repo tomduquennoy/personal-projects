@@ -51,6 +51,10 @@ Computer vision pipeline developed during a hackathon to detect and count bees f
 ## 👤 About
 
 **Tom Duquennoy** — Engineering student at ISAE-SUPAERO (SDD / Neuro-IA)  
-[GitHub](https://github.com/tomduquennoy) · [LinkedIn](https://linkedin.com/in/tomduquennoy)# personal-projects
+
+[GitHub](https://github.com/tomduquennoy) · [LinkedIn](https://linkedin.com/in/tomduquennoy) 
+
+Mail : [tom.duquennoy.pro@gmail.com](tom.duquennoy.pro@gmail.com) · [tom.duquennoy@student.isae-supaero.fr](tom.duquennoy@student.isae-supaero.fr)
+
 
 Repository contains personal and academical projects, which cover a broad aspect of thematics (Data Science, geopolitics, intelligence studies, disinformation)
