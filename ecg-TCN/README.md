@@ -28,3 +28,8 @@ On prend l'encodeur pré-entraîné et on l'évalue/affine avec les labels :
 Linear Probing : on gèle l'encodeur, on entraîne juste une couche linéaire → supervisé minimal
 Fine-tuning : on dégeèle tout et on entraîne avec les 5 classes → supervisé complet
 Baseline : un TCN entraîné from scratch, 100% supervisé, sans pré-entraînement SSL
+
+## Exemple de signaux ECG traités ici
+
+![Signaux ECG : 5 classes différentes](./output-ecg.png)
+
