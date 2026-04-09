@@ -15,7 +15,7 @@ Exploration of automated detection of AI-generated or tampered administrative do
 
 ---
 
-### 🫀 [ecg-tcn](./ecg-tcn)
+### 🫀 [ecg-TCN](./ecg-TCN)
 **Cardiac arrhythmia detection with Temporal Convolutional Networks**
 
 Deep learning approach to ECG signal classification using TCN architectures, designed to detect arrhythmias from raw time-series data.
@@ -52,4 +52,5 @@ Computer vision pipeline developed during a hackathon to detect and count bees f
 
 **Tom Duquennoy** — Engineering student at ISAE-SUPAERO (SDD / Neuro-IA)  
 [GitHub](https://github.com/tomduquennoy) · [LinkedIn](https://linkedin.com/in/tomduquennoy)# personal-projects
+
 Repository contains personal and academical projects, which cover a broad aspect of thematics (Data Science, geopolitics, intelligence studies, disinformation)
