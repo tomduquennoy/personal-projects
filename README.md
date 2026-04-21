@@ -42,6 +42,15 @@ Computer vision pipeline developed during a hackathon to detect and count bees f
 
 ---
 
+### 📂 [academic-papers](./academic-papers)
+**Different academic papers/essays** 
+
+Academic papers produced during Sciences Po's Master of International Security or ISAE-Supaero's Research Project.
+
+`Analysis` `SOTA` `essay`
+
+---
+
 ## 🛠️ Stack
 
 `Python` · `PyTorch` · `TensorFlow / Keras` · `Hugging Face` · `OpenCV` · `Jupyter`
